@@ -109,6 +109,7 @@ export default {
                 class="text-7xl font-bold w-20 border-b-2"
                 maxlength="2"
                 v-model="numberOfPeople"
+                @keydown.enter="handleCalculate"
               />
             </div>
             <div class="font-thin p-5">Number of People</div>
